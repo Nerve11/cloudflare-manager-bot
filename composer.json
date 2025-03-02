@@ -1,0 +1,15 @@
+{
+    "name": "yourname/cloudflare-manager-bot",
+    "description": "Telegram bot for managing Cloudflare domains via API",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0",
+        "monolog/monolog": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CloudflareBot\\": "src/"
+        }
+    }
+} 
